@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63301" started-at="2018-12-07T12:05:02Z" finished-at="2018-12-07T12:06:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63301" started-at="2018-12-07T12:05:02Z" finished-at="2018-12-07T12:06:06Z">
+      <class name="ticketBookingTests.TicketBookingIRCTC">
+        <test-method status="PASS" signature="createDriverInstance()[pri:0, instance:ticketBookingTests.TicketBookingIRCTC@3bfdc050]" name="createDriverInstance" is-config="true" duration-ms="4154" started-at="2018-12-07T12:04:58Z" finished-at="2018-12-07T12:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriverInstance -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:ticketBookingTests.TicketBookingIRCTC@3bfdc050]" name="openBrowser" is-config="true" duration-ms="14524" started-at="2018-12-07T12:05:02Z" finished-at="2018-12-07T12:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:ticketBookingTests.TicketBookingIRCTC@3bfdc050]" name="login" duration-ms="14246" started-at="2018-12-07T12:05:17Z" finished-at="2018-12-07T12:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="fillingJouneyDetails()[pri:0, instance:ticketBookingTests.TicketBookingIRCTC@3bfdc050]" name="fillingJouneyDetails" duration-ms="6405" started-at="2018-12-07T12:05:31Z" depends-on-methods="ticketBookingTests.TicketBookingIRCTC.login" finished-at="2018-12-07T12:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillingJouneyDetails -->
+        <test-method status="PASS" signature="selectJourneyTrain()[pri:0, instance:ticketBookingTests.TicketBookingIRCTC@3bfdc050]" name="selectJourneyTrain" duration-ms="8173" started-at="2018-12-07T12:05:37Z" depends-on-methods="ticketBookingTests.TicketBookingIRCTC.fillingJouneyDetails" finished-at="2018-12-07T12:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectJourneyTrain -->
+        <test-method status="PASS" signature="enterPassengerDetails()[pri:0, instance:ticketBookingTests.TicketBookingIRCTC@3bfdc050]" name="enterPassengerDetails" duration-ms="19902" started-at="2018-12-07T12:05:46Z" depends-on-methods="ticketBookingTests.TicketBookingIRCTC.selectJourneyTrain" finished-at="2018-12-07T12:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassengerDetails -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:ticketBookingTests.TicketBookingIRCTC@3bfdc050]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2018-12-07T12:06:06Z" finished-at="2018-12-07T12:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ticketBookingTests.TicketBookingIRCTC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
